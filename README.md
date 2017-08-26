@@ -1,5 +1,7 @@
 # PhoenixVue
 
+This project is a simple example of how to integrate Vue into a Phoenix application using brunch.io
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
