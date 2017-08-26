@@ -19,3 +19,16 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+import Vue from 'vue'
+import App from './app/App'
+import router from './app/router'
+import "vueify/lib/insert-css"
+
+
+Vue.config.productionTip = false
+
+new Vue({
+    el: '#app',
+    router,
+    render: h => h(App)
+})
